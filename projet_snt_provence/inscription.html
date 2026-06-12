@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>DEVENIR GARDIEN DE LA MÉMOIRE</title>
+    <link rel="stylesheet" href="style_sud.css">
+</head>
+<body>
+    <nav>
+        <a href="indexprovence.html">ACCUEIL</a> 
+        <a href="militaire.html">HISTOIRE</a> 
+        <a href="secteurs.html">LES PLAGES</a> 
+        <a href="inscription.html">MÉMOIRE</a>
+    </nav>
+
+    <h1>REJOINDRE LE RÉSEAU DE MÉMOIRE</h1>
+    
+    <p>Le débarquement de Provence est un pilier de notre liberté. En vous inscrivant, vous aidez à faire vivre le souvenir des combattants de l'Armée d'Afrique et des Alliés. Remplissez le formulaire détaillé ci-dessous pour personnaliser votre participation.</p>
+
+    <form>
+        <h2>VOS COORDONNÉES</h2>
+        <input type="text" placeholder="Nom et Prénom" required>
+        <input type="email" placeholder="Votre Email" required>
+
+        <hr>
+
+        <h2>VOTRE PROFIL</h2>
+        <p>Quel est votre statut ?</p>
+        <select name="statut">
+            <option value="eleve">Élève de Seconde</option>
+            <option value="etudiant">Étudiant en Histoire</option>
+            <option value="passionne">Passionné d'Histoire</option>
+            <option value="descendant">Descendant de Combattant</option>
+        </select>
+
+        <hr>
+
+        <h2>VOS INTÉRÊTS</h2>
+        <p>Quel secteur vous passionne le plus ?</p>
+        <input type="radio" name="secteur" value="alpha"> Secteur Alpha (Cavalaire) <br>
+        <input type="radio" name="secteur" value="delta"> Secteur Delta (Sainte-Maxime) <br>
+        <input type="radio" name="secteur" value="camel"> Secteur Camel (Saint-Raphaël) <br>
+
+        <hr>
+
+        <h2>OPTIONS DE PARTICIPATION</h2>
+        <p>Comment souhaitez-vous aider ?</p>
+        <input type="checkbox" name="aide" value="newsletter"> Recevoir la lettre d'information <br>
+        <input type="checkbox" name="aide" value="visite"> Participer aux visites guidées des forts <br>
+        <input type="checkbox" name="aide" value="archives"> Partager des archives familiales <br>
+
+        <br>
+        <a href="bravo.html"><button type="button">VALIDER MON ENGAGEMENT</button></a>
+    </form>
+
+    <p>Consultez le calendrier des cérémonies sur le site du : <a href="https://www.defense.gouv.fr" target="_blank">Ministère des Armées</a></p>
+</body>
+</html>
